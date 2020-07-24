@@ -33,7 +33,7 @@
             padding-right: 16px;
             border-bottom: 1px solid #d6d6d6;
             box-shadow: 0 0 4px rgba(0, 0, 0, .1);
-            height: 100px;
+            padding: 20px;
         }
 
         .nav-link {
@@ -174,7 +174,7 @@
 
         /* Slideshow container */
         .slideshow-container {
-            max-width: 1000px;
+            max-width: 100%;
             position: relative;
             margin: auto;
         }
@@ -252,7 +252,12 @@
 
         /* INTRO CSS */
         .bottom-container {
-             background-color: #11999E;
+            background-color: #11999E;
+
+            width: 100%;
+            padding: 10px;
+
+            text-align: center;
         }
 
         .skill-row-1 {
@@ -261,12 +266,14 @@
             text-align: left;
             line-height: 2;
         }
+
         .skill-row-2 {
             width: 90%;
             margin: 30px auto 100px auto;
             text-align: left;
             line-height: 2;
         }
+
         .skill-image1 {
             width: 25%;
             float: left;
@@ -285,12 +292,14 @@
             text-align: left;
             line-height: 2;
         }
+
         .skill-row-4 {
             width: 90%;
             margin: 30px auto 100px auto;
             text-align: left;
             line-height: 2;
         }
+
         .skill-image3 {
             width: 25%;
             float: left;
@@ -302,13 +311,6 @@
             float: right;
             margin-right: 30px;
         }
-
-
-        .copyright {
-            font-size: 3rem;
-            height: 20px;
-       
-        }
     </style>
 </head>
 
@@ -316,29 +318,30 @@
 
 
     <!-- Header Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Pritam <b>Traders</b></a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar m overflow-y: auto">
+        <a class="navbar-brand" href="#" style="font-weight: bolder;">Pritam <b>Traders</b></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
             <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link">Home</a>
+                <a href="#" class="nav-item nav-link" style="font-weight: bolder;">Home</a>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown">Our Services</a>
+                    <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"
+                        style="font-weight: bolder;">Our Services</a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Web Design</a>
-                        <a href="#" class="dropdown-item">Web Development</a>
-                        <a href="#" class="dropdown-item">Graphic Design</a>
-                        <a href="#" class="dropdown-item">Digital Marketing</a>
+                        <a href="#" class="dropdown-item">Paints</a>
+                        <a href="#" class="dropdown-item">Cements</a>
+                        <a href="#" class="dropdown-item">Electricals</a>
+                        <a href="#" class="dropdown-item">Miscellaneous</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item nav-link">AboutUs</a>
-                <a href="#" class="nav-item nav-link">Portfolio</a>
-                <a href="#" class="nav-item nav-link active">Reviews</a>
-                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link" style="font-weight: bolder;">PriceList</a>
+                <a href="#" class="nav-item nav-link" style="font-weight: bolder;">Reviews</a>
+                <a href="#" class="nav-item nav-link" style="font-weight: bolder;">AboutUs</a>
+                <a href="#" class="nav-item nav-link" style="font-weight: bolder;">Contact</a>
             </div>
             <div class="navbar-nav ml-auto">
                 <a href="#" class="nav-item nav-link"><i class="fa fa-facebook"></i></a>
@@ -383,28 +386,44 @@
 
 
     <div class="skills">
-  
+
         <div class="skill-row-1">
             <img class="skill-image1" src="images/brow.jpg" alt="">
             <h3>KNP Japan Pvt Ltd.</h3>
-            <p class="">Kansai Nerolac Paints Ltd (KNPL), a subsidiary of Kansai Paints Company Ltd, Japan, commenced its operations in Nepal under the brand name Kansai Paints Nepal Pvt Ltd. Kansai Nerolac Paints Ltd (KNPL) had acquired 68 per cent stake in Nepal Shalimar last year. Kansai Paints Nepal Pvt Ltd would be utilizing the manufacturing set-up of Nepal Shalimar to manufacture Nerolac range of products that are currently exported to Nepal.</p>
+            <p class="">Kansai Nerolac Paints Ltd (KNPL), a subsidiary of Kansai Paints Company Ltd, Japan, commenced
+                its operations in Nepal under the brand name Kansai Paints Nepal Pvt Ltd. Kansai Nerolac Paints Ltd
+                (KNPL) had acquired 68 per cent stake in Nepal Shalimar last year. Kansai Paints Nepal Pvt Ltd would be
+                utilizing the manufacturing set-up of Nepal Shalimar to manufacture Nerolac range of products that are
+                currently exported to Nepal.</p>
         </div>
         <div class="skill-row-2">
             <img class="skill-image2" src="images/ide.jpg" alt="">
             <h3>Maruti Cenents</h3>
-            <p class="">The Cement manufacturing technology used by Maruti Cements Ltd (MCL) ensures that the final product address to globally accepted standards of quality performanace. MCL's empolyees are the driving force behind the plant's many achievement.
-                Our most important asset is our motivated employees who can deliver consistent positive results for our customers, our stockholders, our communities, and each other. Through their passion,discipline,and integrity, they successfuly position us for the challenges and opportunities that lie ahead.</p>
+            <p class="">The Cement manufacturing technology used by Maruti Cements Ltd (MCL) ensures that the final
+                product address to globally accepted standards of quality performanace. MCL's empolyees are the driving
+                force behind the plant's many achievement.
+                Our most important asset is our motivated employees who can deliver consistent positive results for our
+                customers, our stockholders, our communities, and each other. Through their passion,discipline,and
+                integrity, they successfuly position us for the challenges and opportunities that lie ahead.</p>
         </div>
         <div class="skill-row-3">
             <img class="skill-image3" src="images/brow.jpg" alt="">
             <h3>KNP Japan Pvt Ltd.</h3>
-            <p class="">Kansai Nerolac Paints Ltd (KNPL), a subsidiary of Kansai Paints Company Ltd, Japan, commenced its operations in Nepal under the brand name Kansai Paints Nepal Pvt Ltd. Kansai Nerolac Paints Ltd (KNPL) had acquired 68 per cent stake in Nepal Shalimar last year. Kansai Paints Nepal Pvt Ltd would be utilizing the manufacturing set-up of Nepal Shalimar to manufacture Nerolac range of products that are currently exported to Nepal.</p>
+            <p class="">Kansai Nerolac Paints Ltd (KNPL), a subsidiary of Kansai Paints Company Ltd, Japan, commenced
+                its operations in Nepal under the brand name Kansai Paints Nepal Pvt Ltd. Kansai Nerolac Paints Ltd
+                (KNPL) had acquired 68 per cent stake in Nepal Shalimar last year. Kansai Paints Nepal Pvt Ltd would be
+                utilizing the manufacturing set-up of Nepal Shalimar to manufacture Nerolac range of products that are
+                currently exported to Nepal.</p>
         </div>
         <div class="skill-row-4">
             <img class="skill-image4" src="images/ide.jpg" alt="">
             <h3>Maruti Cenents</h3>
-            <p class="">The Cement manufacturing technology used by Maruti Cements Ltd (MCL) ensures that the final product address to globally accepted standards of quality performanace. MCL's empolyees are the driving force behind the plant's many achievement.
-                Our most important asset is our motivated employees who can deliver consistent positive results for our customers, our stockholders, our communities, and each other. Through their passion,discipline,and integrity, they successfuly position us for the challenges and opportunities that lie ahead.</p>
+            <p class="">The Cement manufacturing technology used by Maruti Cements Ltd (MCL) ensures that the final
+                product address to globally accepted standards of quality performanace. MCL's empolyees are the driving
+                force behind the plant's many achievement.
+                Our most important asset is our motivated employees who can deliver consistent positive results for our
+                customers, our stockholders, our communities, and each other. Through their passion,discipline,and
+                integrity, they successfuly position us for the challenges and opportunities that lie ahead.</p>
         </div>
     </div>
 
@@ -420,7 +439,8 @@
 
     <!-- Category Slider-->
     <div class="bottom-container">
-        <p class="copyright"><center>© 2020 Ronal Chaudhary</center></p>
+        © 2020 Ronal Chaudhary
+
     </div>
 
 
